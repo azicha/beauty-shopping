@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link-hover {
+    @apply hover:border-black hover:border-b-2;
+}
